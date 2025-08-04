@@ -10,7 +10,8 @@
     "postbuild": "echo finished with Build size: & dir build | find /i \"File(s)\"",
     "prestart": "npm run build ",
     "start": "node build/index.js",
-    "dev": "ts-node-dev --respawn src/index.ts"
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "test":"jest"
   },
   "keywords": [],
   "author": "batoul abbas",
